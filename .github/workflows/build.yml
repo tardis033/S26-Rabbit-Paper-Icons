@@ -20,8 +20,8 @@ jobs:
 
       - name: Install corrected icon mappings
         run: |
-          cp fixed_appfilter.xml android-project/app/src/main/res/xml/appfilter.xml
-          cp fixed_appfilter.xml android-project/app/src/main/assets/appfilter.xml
+          cp fixed_appfilter-1.xml android-project/app/src/main/res/xml/appfilter.xml
+          cp fixed_appfilter-1.xml android-project/app/src/main/assets/appfilter.xml
 
       - name: Setup Java 17
         uses: actions/setup-java@v4
